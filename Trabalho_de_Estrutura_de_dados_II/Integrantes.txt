@@ -1,0 +1,7 @@
+Trabalho de Estrutura de dados II - Implementação de árvores binárias, Turma BCC 2018
+
+Integrantes:
+	     Ian de Brito Azevedo
+	     Luiz Carlos Silva F. Junior
+	     Marlisson Jean A. Aleixo
+	     Rodrigo Souza dos Santos
