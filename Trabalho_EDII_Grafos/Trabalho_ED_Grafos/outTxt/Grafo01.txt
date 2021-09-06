@@ -1,0 +1,150 @@
+Partindo de A
+Força Bruta
+A 7 B 7 C 5 D 6 E 7 A = 32
+A 7 B 7 C 7 E 6 D 10 A = 37
+A 7 B 10 D 5 C 7 E 7 A = 36
+A 7 B 10 D 6 E 7 C 6 A = 36
+A 7 B 10 E 7 C 5 D 10 A = 39
+A 7 B 10 E 6 D 5 C 6 A = 34
+A 6 C 7 B 10 D 6 E 7 A = 36
+A 6 C 7 B 10 E 6 D 10 A = 39
+A 6 C 5 D 10 B 10 E 7 A = 38
+A 6 C 5 D 6 E 10 B 7 A = 34
+A 6 C 7 E 10 B 10 D 10 A = 43
+A 6 C 7 E 6 D 10 B 7 A = 36
+A 10 D 10 B 7 C 7 E 7 A  = 41
+A 10 D 10 B 10 E 7 C 6 A  = 43
+A 10 D 5 C 7 B 10 E 7 A  = 39
+A 10 D 5 C 7 E 10 B 7 A  = 39
+A 10 D 6 E 10 B 7 C 6 A  = 39
+A 10 D 6 E 7 C 7 B 7 A  = 37
+A 7 E 10 B 7 C 5 D 10 A = 39
+A 7 E 10 B 10 D 5 C 6 A = 38
+A 7 E 7 C 7 B 10 D 10 A = 41
+A 7 E 7 C 5 D 10 B 7 A = 36
+A 7 E 6 D 10 B 7 C 6 A = 36
+A 7 E 6 D 5 C 7 B 7 A = 32
+Melhor percurso: A 7 B 7 C 5 D 6 E 7 A = 32
+Vizinho mais proximo
+Melhor percurso: A 6 C 5 D 6 E 10 B 7 A = 34
+
+Partindo de B
+Força Bruta
+B 7 A 6 C 5 D 6 E 10 B = 34
+B 7 A 6 C 7 E 6 D 10 B = 36
+B 7 A 10 D 5 C 7 E 10 B = 39
+B 7 A 10 D 6 E 7 C 7 B = 37
+B 7 A 7 E 7 C 5 D 10 B = 36
+B 7 A 7 E 6 D 5 C 7 B = 32
+B 7 C 6 A 10 D 6 E 10 B = 39
+B 7 C 6 A 7 E 6 D 10 B = 36
+B 7 C 5 D 10 A 7 E 10 B = 39
+B 7 C 5 D 6 E 7 A 7 B = 32
+B 7 C 7 E 7 A 10 D 10 B = 41
+B 7 C 7 E 6 D 10 A 7 B = 37
+B 10 D 10 A 6 C 7 E 10 B  = 43
+B 10 D 10 A 7 E 7 C 7 B  = 41
+B 10 D 5 C 6 A 7 E 10 B  = 38
+B 10 D 5 C 7 E 7 A 7 B  = 36
+B 10 D 6 E 7 A 6 C 7 B  = 36
+B 10 D 6 E 7 C 6 A 7 B  = 36
+B 10 E 7 A 6 C 5 D 10 B  = 38
+B 10 E 7 A 10 D 5 C 7 B  = 39
+B 10 E 7 C 6 A 10 D 10 B  = 43
+B 10 E 7 C 5 D 10 A 7 B  = 39
+B 10 E 6 D 10 A 6 C 7 B  = 39
+B 10 E 6 D 5 C 6 A 7 B  = 34
+Melhor percurso: B 7 A 7 E 6 D 5 C 7 B = 32
+Vizinho mais proximo
+Melhor percurso: B 7 A 6 C 5 D 6 E 10 B = 34
+
+Partindo de C
+Força Bruta
+C 6 A 7 B 10 D 6 E 7 C = 36
+C 6 A 7 B 10 E 6 D 5 C = 34
+C 6 A 10 D 10 B 10 E 7 C = 43
+C 6 A 10 D 6 E 10 B 7 C = 39
+C 6 A 7 E 10 B 10 D 5 C = 38
+C 6 A 7 E 6 D 10 B 7 C = 36
+C 7 B 7 A 10 D 6 E 7 C = 37
+C 7 B 7 A 7 E 6 D 5 C = 32
+C 7 B 10 D 10 A 7 E 7 C = 41
+C 7 B 10 D 6 E 7 A 6 C = 36
+C 7 B 10 E 7 A 10 D 5 C = 39
+C 7 B 10 E 6 D 10 A 6 C = 39
+C 5 D 10 A 7 B 10 E 7 C = 39
+C 5 D 10 A 7 E 10 B 7 C = 39
+C 5 D 10 B 7 A 7 E 7 C = 36
+C 5 D 10 B 10 E 7 A 6 C = 38
+C 5 D 6 E 7 A 7 B 7 C = 32
+C 5 D 6 E 10 B 7 A 6 C = 34
+C 7 E 7 A 7 B 10 D 5 C = 36
+C 7 E 7 A 10 D 10 B 7 C = 41
+C 7 E 10 B 7 A 10 D 5 C = 39
+C 7 E 10 B 10 D 10 A 6 C = 43
+C 7 E 6 D 10 A 7 B 7 C = 37
+C 7 E 6 D 10 B 7 A 6 C = 36
+Melhor percurso: C 7 B 7 A 7 E 6 D 5 C = 32
+Vizinho mais proximo
+Melhor percurso: C 5 D 6 E 7 A 7 B 7 C = 32
+
+Partindo de D
+Força Bruta
+D 10 A 7 B 7 C 7 E 6 D  = 37
+D 10 A 7 B 10 E 7 C 5 D  = 39
+D 10 A 6 C 7 B 10 E 6 D  = 39
+D 10 A 6 C 7 E 10 B 10 D  = 43
+D 10 A 7 E 10 B 7 C 5 D  = 39
+D 10 A 7 E 7 C 7 B 10 D  = 41
+D 10 B 7 A 6 C 7 E 6 D  = 36
+D 10 B 7 A 7 E 7 C 5 D  = 36
+D 10 B 7 C 6 A 7 E 6 D  = 36
+D 10 B 7 C 7 E 7 A 10 D  = 41
+D 10 B 10 E 7 A 6 C 5 D  = 38
+D 10 B 10 E 7 C 6 A 10 D  = 43
+D 5 C 6 A 7 B 10 E 6 D = 34
+D 5 C 6 A 7 E 10 B 10 D = 38
+D 5 C 7 B 7 A 7 E 6 D = 32
+D 5 C 7 B 10 E 7 A 10 D = 39
+D 5 C 7 E 7 A 7 B 10 D = 36
+D 5 C 7 E 10 B 7 A 10 D = 39
+D 6 E 7 A 7 B 7 C 5 D = 32
+D 6 E 7 A 6 C 7 B 10 D = 36
+D 6 E 10 B 7 A 6 C 5 D = 34
+D 6 E 10 B 7 C 6 A 10 D = 39
+D 6 E 7 C 6 A 7 B 10 D = 36
+D 6 E 7 C 7 B 7 A 10 D = 37
+Melhor percurso: D 5 C 7 B 7 A 7 E 6 D = 32
+Vizinho mais proximo
+Melhor percurso: D 5 C 6 A 7 B 10 E 6 D = 34
+
+Partindo de E
+Força Bruta
+E 7 A 7 B 7 C 5 D 6 E = 32
+E 7 A 7 B 10 D 5 C 7 E = 36
+E 7 A 6 C 7 B 10 D 6 E = 36
+E 7 A 6 C 5 D 10 B 10 E = 38
+E 7 A 10 D 10 B 7 C 7 E = 41
+E 7 A 10 D 5 C 7 B 10 E = 39
+E 10 B 7 A 6 C 5 D 6 E  = 34
+E 10 B 7 A 10 D 5 C 7 E  = 39
+E 10 B 7 C 6 A 10 D 6 E  = 39
+E 10 B 7 C 5 D 10 A 7 E  = 39
+E 10 B 10 D 10 A 6 C 7 E  = 43
+E 10 B 10 D 5 C 6 A 7 E  = 38
+E 7 C 6 A 7 B 10 D 6 E = 36
+E 7 C 6 A 10 D 10 B 10 E = 43
+E 7 C 7 B 7 A 10 D 6 E = 37
+E 7 C 7 B 10 D 10 A 7 E = 41
+E 7 C 5 D 10 A 7 B 10 E = 39
+E 7 C 5 D 10 B 7 A 7 E = 36
+E 6 D 10 A 7 B 7 C 7 E = 37
+E 6 D 10 A 6 C 7 B 10 E = 39
+E 6 D 10 B 7 A 6 C 7 E = 36
+E 6 D 10 B 7 C 6 A 7 E = 36
+E 6 D 5 C 6 A 7 B 10 E = 34
+E 6 D 5 C 7 B 7 A 7 E = 32
+Melhor percurso: E 7 A 7 B 7 C 5 D 6 E = 32
+Vizinho mais proximo
+Melhor percurso: E 6 D 5 C 6 A 7 B 10 E = 34
+
